@@ -1,0 +1,13 @@
+.headerstyle{
+    height: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    max-width: 400px;
+    position: sticky;
+}
+.headerBackground {
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+
+}

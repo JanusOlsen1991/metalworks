@@ -1,0 +1,22 @@
+.background{
+    width: 100%;
+    background-color: #008000;
+    position: sticky;
+    text-align: center;
+    margin: 0px;
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #008000;
+    padding: 10px;
+}
+.background:hover{
+    color: aliceblue;
+}
+.tess{
+    margin: 0px;
+}
+
+
