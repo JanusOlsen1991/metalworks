@@ -1,11 +1,45 @@
 div.card {
-    height: 250px;
+    border-radius: 5px;
+    min-height: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     margin: 10px;
-
-
+    min-width: 250px;
 }
+.card p {
+    margin: 10px;
+    text-align: left;
+}
+.card h3 {
+   margin: 0px;
+}
+
+div.noMargin {
+    margin : 0px;
+    padding-top: 5px;
+}
+
+
 div.card:hover {
-    background-color: greenyellow;
+    opacity: 90%;
+}
+
+div.profilecard {
+    box-shadow: 0 6px 11px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 25px;
+    min-width: 250px;
+    max-width: 260px;
+}
+
+
+div.text {
+    padding: 10px;
+    text-align: left;
+}
+div.image {
+    text-align: center;
+}
+.profilecard h3 {
+    text-align: center;
 }
