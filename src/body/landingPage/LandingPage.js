@@ -64,7 +64,7 @@ const LandingPage = () => {
 
                             </div>
                             <div className={Styles.imageRight}>
-                                <img src="https://drive.google.com/uc?export=view&id=17r6d7FFRS8FsAjnqXi4DVfOSw4ITZ4hS"></img>
+                                <img src="https://drive.google.com/uc?export=view&id=17r6d7FFRS8FsAjnqXi4DVfOSw4ITZ4hS" alt=''></img>
                             </div>
                         </div>
 
