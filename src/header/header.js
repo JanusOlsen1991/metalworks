@@ -8,9 +8,12 @@ const HeaderElement = () => {
             <div>
                 <div
                 className={Styles.headerBackground}>
-                    <img
-                        className={Styles.headerstyle}
-                        src={logo} alt={logo}/>
+                    <a href="/">
+                        <img
+                            className={Styles.headerstyle}
+                            src={logo} alt={logo}/>
+                    </a>
+
                 </div>
 
 
