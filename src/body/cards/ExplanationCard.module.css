@@ -30,6 +30,7 @@ div.profilecard {
     margin: 25px;
     min-width: 250px;
     max-width: 260px;
+    border-radius: 5px;
 }
 
 
@@ -42,4 +43,8 @@ div.image {
 }
 .profilecard h3 {
     text-align: center;
+}
+
+.profileImage {
+    border-radius: 2px;
 }

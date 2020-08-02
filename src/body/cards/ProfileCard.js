@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from "./ExplanationCard.module.css";
+import Styles from './ExplanationCard.module.css';
 
 const ProfileCard = props => {
 
@@ -10,7 +10,7 @@ const ProfileCard = props => {
                     <div className={Styles.text}>
 
                         <div className={Styles.image}>
-                            <img src={props.image} >
+                            <img src={props.image}  className={Styles.profileImage}>
 
                             </img>
                         </div>
