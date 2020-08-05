@@ -5,3 +5,16 @@
 .center {
     text-align: center;
 }
+
+.contacttext {
+    margin: 0 auto; /* center element horizontally */
+    text-align: center;
+    width: 60%;
+}
+.contacttext p {
+    text-align: left;
+}
+
+.space {
+    padding-bottom: 20px;
+}
