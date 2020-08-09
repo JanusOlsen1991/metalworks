@@ -2,8 +2,10 @@
     text-align: center;
     display: inline-flex;
 }
+
 .center {
     text-align: center;
+
 }
 
 .contacttext {
@@ -17,4 +19,8 @@
 
 .space {
     padding-bottom: 20px;
+}
+
+.space img {
+    border-radius: 5px;
 }
