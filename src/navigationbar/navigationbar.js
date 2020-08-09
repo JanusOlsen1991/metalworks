@@ -21,7 +21,7 @@ const Navigation = (props) => {
                              </a>
                          </li>
                          <li>
-                             <a className={Styles.background} href={"/tidligere-jobs"}>
+                             <a className={Styles.background} href={"/tidligere-opgaver"}>
                                  Tidligere opgaver
                              </a>
                          </li>
