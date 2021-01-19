@@ -6,9 +6,8 @@ const Footer = () => {
         <>
             <div className={Styles.Footer}>
                 <p>CVR nummer 40047514</p>
-                <p>Industriparken 1</p>
-                <p>Ø Toreby</p>
-                <p>4800 Nykøbing F</p>
+                <p>Cargovej 7</p>
+                <p>4840 Nørre Alslev</p>
             </div>
         </>
 
