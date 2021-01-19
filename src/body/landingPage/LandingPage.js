@@ -26,17 +26,20 @@ const LandingPage = () => {
                             <div className={Styles.CardsArea}>
                                 <ExplanationCard
                                     headline={'Entrepenørmaskiner'}
-                                    description={'Vi reparerer mange entrepenørmaskiner, herunder '}
+                                    description={'Vi reparerer alle former for entreprenør maskiner som fx gummiged, gravmaskiner, grusgrav materiel mm.'}
                                     background={'#c4c3bd'}></ExplanationCard>
                                 <ExplanationCard
                                     headline={'Genvinding'}
+                                    description={'Vi reparerer alle former for , maskiner til genvinding industrien, dette omfatter, Schredder og sorterings anlæg derefter-Kabel granulerings anlæg som vi renovere og opsætter også nye, efter ønske-udsugnings anlæg for div maskiner og anlæg- skrotsakse-skrot presser-metal presser-..papir presser- alle former for sorteringsmaskiner til skrot-vi bygger vaskeborde til plast & metal samt andre produkter der kan vaskes metal ud af-læsse maskiner til skrot-Grabber til skrot-kraner til skrot og andre slags læsse maskiner-vi opsætter sorterings anlæg for metaller.'}
                                     background={'#e3e1d7'}
                                 ></ExplanationCard>
                                 <ExplanationCard
                                     headline={'Byggeri'}
+                                    description={'Vi udfører alt smedearbejde inden for byggeri som fx trapper, rekværk, altaner, konstruktionsstål mm.'}
                                     background={'#878680'}></ExplanationCard>
                                 <ExplanationCard
-                                    headline={'awesome'}
+                                    headline={'Special Opgaver'}
+                                    description={'Vi kan lave alt fra stort til småt, det er kundens fantasi der sætter grænserne. kontakt os hvis i har ønsker til veludført smedearbejde. '}
                                     background={'#545453'}
                                 ></ExplanationCard>
                             </div>
@@ -55,12 +58,14 @@ const LandingPage = () => {
                                     Vi fremstiller stort som småt og er specialister i at fremstille jern-konstruktioner, altaner, værn samt opsvejsning af entrepenørmateriel.
                                 </p>
                                 <p>
-                                    Genvinding: NOGET OM GENVINDING
+                                    Vi har specialiseret os inden for genvindings industrien og har en helt unik kendskab til det.
+                                    Kun fantasien sætter grænser.
+
 
                                 </p>
                                 <h3>Få et uforpligtende tilbud</h3>
                                 <p>Uanset hvilken smede- eller genvindingsopgave du ønsker løst, så vil vi gerne give dig et uforpligtende tilbud på opgaven.</p>
-                                <p>Vil du gerne høre mere om hvad vi kan tilbyde eller vil du indhente et godt tilbud, så kan du kontakte os på telefon <a href={`tel:+4540124781`}>+45 40124781</a> eller på mail <a href={`mailto:NN@Metalworks.dk`}>NN@Metalworks.dk</a></p>
+                                <p>Vil du gerne høre mere om hvad vi kan tilbyde eller vil du indhente et godt tilbud, så kan du kontakte os på telefon <a href={`tel:+4540114790`}>+45 40114790</a> eller på mail <a href={`mailto:AP@Metalworks.dk`}>AP@Metalworks.dk</a></p>
 
                             </div>
                             <div className={Styles.imageRight}>

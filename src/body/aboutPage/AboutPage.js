@@ -8,9 +8,13 @@ const AboutPage = (props) =>{
     <h1>Om MetalWorks</h1>
                 <div className={'about-wrapper'}>
                 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <p>Metalworks aps blev grundlagt i 2018 af Andreas Mønsted Pedersen.
+                    Sammen med sin far Christian Pedersen udviklede firmaet sig hurtigt og i april 2019 blev Nikolaj Ørsted Nielsen medejer i virksomheden.
+                    Vi gør alt hvad vi kan for at tilfredsstille vores kunders behov og er med under hele processen med gode råd og vejledning.
+                    Vores største mål er at kunden er tilfreds når vi er færdige med arbejdet.
+                    Vi har et udtryk i firmaet, “Hvis vi ikke kan lave det, er der ingen der kan” som vi lever efter, vi siger aldrig nej til en udfordring.
+
+
                 </p>
 
 

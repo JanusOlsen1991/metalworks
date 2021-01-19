@@ -10,10 +10,8 @@ const ContactPage = (props) =>{
             <div className={Styles.center}>
                 <div className={Styles.contacttext}>
                     <h1>Kontakt</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Vi er altid til at komme i kontakt med. Så ved akut situationer, om det så er dag, nat eller weekend er der altid en telefon åben.
+                    </p>
                 </div>
 
                 <div className={Styles.cards}>
@@ -23,14 +21,12 @@ const ContactPage = (props) =>{
                                  email='AP@METALWORKS.DK'
                     />
                     <ProfileCard name='NIKOLAJ ØRSTED NIELSEN'
-                                 image='https://drive.google.com/uc?export=view&id=1Hftn4ApwXCiuMtCMrg2Q18Y3KXmOGUMZ
-'
+                                 image='https://drive.google.com/uc?export=view&id=1Hftn4ApwXCiuMtCMrg2Q18Y3KXmOGUMZ'
                                  phone='+45 40124781'
                                  email='NN@METALWORKS.DK'
                     />
                     <ProfileCard name='CHRISTIAN PETERSEN'
-                                 image='https://drive.google.com/uc?export=view&id=1yVoCixgwlRqE60jDtYEllzkHIcBLBZ8H
-'
+                                 image='https://drive.google.com/uc?export=view&id=1yVoCixgwlRqE60jDtYEllzkHIcBLBZ8H'
                                  phone='+45 40125240'
                                  email='CP@METALWORKS.DK'
                     />
