@@ -36,10 +36,9 @@ const ContactPage = (props) =>{
             <div className={Styles.space}>
                 <div className={Styles.center}>
                     <h2>Find os</h2>
-                    <a href="https://www.google.dk/maps/place/Industriparken+1,+4800+Nyk%C3%B8bing+Falster/@55.2305936,11.302878,7z/data=!4m5!3m4!1s0x47ad30ea8aaf3963:0x9c24eafe64dbbf1!8m2!3d54.76109!4d11.835715">
+                    <a href="https://www.google.com/maps/place/Cargovej+7,+4840+N%C3%B8rre+Alslev/@55.8391017,9.9339725,7z/data=!4m5!3m4!1s0x47ad3348287469ab:0xe731686a9e7bfd8d!8m2!3d54.8995307!4d11.8950322">
 
-
-                        <img src="https://drive.google.com/uc?export=view&id=1an5pkfFF1Z5z2ty1VHXronsVtyJ7Flk3" alt='' />
+                        <img src="https://drive.google.com/uc?export=view&id=17GzobYDZI2Kr0YuAz-xwbC9Bm9tFAQtk" alt='' />
                     </a>
                 </div>
             </div>

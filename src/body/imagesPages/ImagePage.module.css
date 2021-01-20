@@ -1,0 +1,18 @@
+.imagesWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+.imagePage {
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.imagePage img {
+
+    margin: 10px;
+    border-radius: 5px;
+}

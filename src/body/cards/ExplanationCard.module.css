@@ -6,6 +6,11 @@ div.card {
     margin: 10px;
     min-width: 250px;
 }
+
+div.card a {
+    text-decoration: none;
+    color: black;
+}
 .card p {
     margin: 10px;
     text-align: left;

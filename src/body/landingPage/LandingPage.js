@@ -27,19 +27,23 @@ const LandingPage = () => {
                                 <ExplanationCard
                                     headline={'Entrepenørmaskiner'}
                                     description={'Vi reparerer alle former for entreprenør maskiner som fx gummiged, gravmaskiner, grusgrav materiel mm.'}
+                                    redirectPath={'/entrepreneur-materiale'}
                                     background={'#c4c3bd'}></ExplanationCard>
                                 <ExplanationCard
-                                    headline={'Genvinding'}
-                                    description={'Vi reparerer alle former for , maskiner til genvinding industrien, dette omfatter, Schredder og sorterings anlæg derefter-Kabel granulerings anlæg som vi renovere og opsætter også nye, efter ønske-udsugnings anlæg for div maskiner og anlæg- skrotsakse-skrot presser-metal presser-..papir presser- alle former for sorteringsmaskiner til skrot-vi bygger vaskeborde til plast & metal samt andre produkter der kan vaskes metal ud af-læsse maskiner til skrot-Grabber til skrot-kraner til skrot og andre slags læsse maskiner-vi opsætter sorterings anlæg for metaller.'}
+                                    headline={'Genindvinding'}
+                                    description={'Vi reparerer, producere og opsætter alle former for , maskiner til genindvinding industrien, dette omfatter, Schredder, sorterings anlæg, Kabel granulerings anlæg og skrotsaks mm'}
+                                    redirectPath={'/genindvinding'}
                                     background={'#e3e1d7'}
                                 ></ExplanationCard>
                                 <ExplanationCard
                                     headline={'Byggeri'}
                                     description={'Vi udfører alt smedearbejde inden for byggeri som fx trapper, rekværk, altaner, konstruktionsstål mm.'}
+                                    redirectPath={'/byggeri'}
                                     background={'#878680'}></ExplanationCard>
                                 <ExplanationCard
                                     headline={'Special Opgaver'}
                                     description={'Vi kan lave alt fra stort til småt, det er kundens fantasi der sætter grænserne. kontakt os hvis i har ønsker til veludført smedearbejde. '}
+                                    redirectPath={'/special-opgaver'}
                                     background={'#545453'}
                                 ></ExplanationCard>
                             </div>

@@ -9,8 +9,9 @@ const ExplanationCard = (props) => {
     }
     return (
         <>
+                <div className={Styles.card} >
+                    <a href={props.redirectPath}>
 
-                <div className={Styles.card}>
                     <div style={color}>
                         <div className={Styles.noMargin}>
                             <h3>
@@ -23,8 +24,10 @@ const ExplanationCard = (props) => {
 
 
                     </div>
+                    </a>
 
                 </div>
+
 
 
         </>

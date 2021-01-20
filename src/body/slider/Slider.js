@@ -16,11 +16,13 @@ const Slider = props => {
 
     const firstSlide = slides[0]
     const secondSlide = slides[1]
+    const thirdSlide = slides[2]
     const lastSlide = slides[slides.length - 1]
 
     const { texts } = props
     const firstText = texts[0]
     const secondText = texts[1]
+    const thirdText = texts[2]
     const lastText = texts[texts.length -1]
 
 
@@ -30,8 +32,8 @@ const Slider = props => {
         activeText: 0,
         translate: getWidth(),
         transition: 3.0,
-        _slides: [lastSlide, firstSlide, secondSlide],
-        _texts:  [lastText, firstText, secondText]
+        _slides: [lastSlide, firstSlide, secondSlide, thirdSlide],
+        _texts:  [lastText, firstText, secondText, thirdText]
     })
 
     let { activeSlide, translate, _slides, transition, _texts, activeText } = state
