@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3afad0f2-bf25-4381-a1a3-d0abdc946c77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/body/imagesPages/ImagePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/body/imagesPages/ImagePage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/body/SliderTexts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/SliderTexts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/cards/ExplanationCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/cards/ExplanationCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/cards/ExplanationCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/cards/ExplanationCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/contactPage/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/contactPage/ContactPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/body/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/images.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/landingPage/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/landingPage/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/previousJobsPage/PreviousJobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/previousJobsPage/PreviousJobs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/slider/Slider.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/body/imagesPages/ImagePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="102">
               <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -56,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/body/images.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="306">
+              <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -68,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/body/slider/Slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="1819">
               <caret line="110" column="67" selection-start-line="110" selection-start-column="67" selection-end-line="110" selection-end-column="67" />
               <folding>
                 <element signature="e#16#74#0" expanded="true" />
@@ -97,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/body/contactPage/ContactPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="38" column="206" selection-start-line="38" selection-start-column="206" selection-end-line="38" selection-end-column="206" />
+            <state relative-caret-position="136">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -112,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/body/SliderTexts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -121,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/body/body.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="255">
               <caret line="23" column="97" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -154,6 +145,7 @@
       <find>React A</find>
       <find>%</find>
       <find>https://drive.google.comuc?export=view&amp;id=12zAmDkOU8eb9ao_g2TukymkqWCl7VQHn</find>
+      <find>1onI_rYiTh50mduLYK71cCqRdCwmOvY5M</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Janus\WebstormProjects\metalworks\src\body\contactPage</dir>
@@ -220,9 +212,9 @@
         <option value="$PROJECT_DIR$/src/body/landingPage/LandingPage.js" />
         <option value="$PROJECT_DIR$/src/body/body.js" />
         <option value="$PROJECT_DIR$/src/body/slider/Slider.js" />
-        <option value="$PROJECT_DIR$/src/body/images.js" />
-        <option value="$PROJECT_DIR$/src/body/SliderTexts.js" />
         <option value="$PROJECT_DIR$/src/body/contactPage/ContactPage.js" />
+        <option value="$PROJECT_DIR$/src/body/SliderTexts.js" />
+        <option value="$PROJECT_DIR$/src/body/images.js" />
       </list>
     </option>
   </component>
@@ -422,6 +414,7 @@
       <workItem from="1596969267392" duration="710000" />
       <workItem from="1596996224625" duration="2636000" />
       <workItem from="1598211567682" duration="2196000" />
+      <workItem from="1612104544387" duration="7913000" />
     </task>
     <task id="LOCAL-00001" summary="Starting point">
       <created>1584550396969</created>
@@ -486,30 +479,37 @@
       <option name="project" value="LOCAL" />
       <updated>1611076002331</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Billeder tilføjet">
+      <created>1611177082324</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611177082324</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179162000" />
+    <option name="totallyTimeSpent" value="187765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8473581" visible="true" weight="0.18374091" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84540117" visible="true" weight="0.18374091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.15264188" side_tool="true" visible="true" weight="0.18374091" />
+      <window_info id="npm" order="2" sideWeight="0.15459883" side_tool="true" visible="true" weight="0.18374091" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48909453" visible="true" weight="0.25183016" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48843357" visible="true" weight="0.25183016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49966952" weight="0.329429" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5109055" side_tool="true" visible="true" weight="0.25183016" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5115664" side_tool="true" visible="true" weight="0.25183016" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4970258" weight="0.20644216" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -527,7 +527,8 @@
     <MESSAGE value="for deployment" />
     <MESSAGE value="contactpage demo" />
     <MESSAGE value="Ny tekst tilføjet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ny tekst tilføjet" />
+    <MESSAGE value="Billeder tilføjet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Billeder tilføjet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
@@ -759,6 +760,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/body/previousJobsPage/PreviousJobs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/body/imagesPages/ImagePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/body/imagesPages/ImagePage.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -766,22 +784,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/body/body.js">
+    <entry file="file://$PROJECT_DIR$/src/body/slider/Slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="97" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
+        <state relative-caret-position="1819">
+          <caret line="110" column="67" selection-start-line="110" selection-start-column="67" selection-end-line="110" selection-end-column="67" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/body/imagesPages/ImagePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#16#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -795,37 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/body/slider/Slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="110" column="67" selection-start-line="110" selection-start-column="67" selection-end-line="110" selection-end-column="67" />
-          <folding>
-            <element signature="e#16#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/body/previousJobsPage/PreviousJobs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/body/images.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/body/SliderTexts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/body/landingPage/LandingPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -833,13 +810,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/body/contactPage/ContactPage.js">
+    <entry file="file://$PROJECT_DIR$/src/body/body.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" column="206" selection-start-line="38" selection-start-column="206" selection-end-line="38" selection-end-column="206" />
+        <state relative-caret-position="255">
+          <caret line="23" column="97" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/body/contactPage/ContactPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/body/SliderTexts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/body/images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
         </state>
       </provider>
     </entry>
