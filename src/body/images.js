@@ -1,12 +1,19 @@
 export default [ // slider
     //'https://drive.google.com/uc?export=view&id=1kMDlgjY-MUe7hMlSeWQAAVWBGTnSTnEe',
     //'https://drive.google.com/uc?export=view&id=1uMY5yQyouj0w-FeSR4zTsOg3IVJu_1nm',
-    'https://drive.google.com/uc?export=view&id=12zAmDkOU8eb9ao_g2TukymkqWCl7VQHn',
-    'https://drive.google.com/uc?export=view&id=17eiRTwt3_jrPlMX5Z7j2KeUJGd2B5O0P',
+    //'https://drive.google.com/uc?export=view&id=17eiRTwt3_jrPlMX5Z7j2KeUJGd2B5O0P',
     'https://drive.google.com/uc?export=view&id=17ljwdAVOxeKtapd4oQif0DLlbXme8e4Q',
-    'https://drive.google.com/uc?export=view&id=1KlbIeuzL3TyMu-t6OGHCuV4pDMSQwaEw',
-    'https://drive.google.com/uc?export=view&id=1bPiOzBP3i68AO7FHVeF92M-vrG4R0JJC',
+    'https://drive.google.com/uc?export=view&id=12zAmDkOU8eb9ao_g2TukymkqWCl7VQHn',
+
+    //'https://drive.google.com/uc?export=view&id=1KlbIeuzL3TyMu-t6OGHCuV4pDMSQwaEw',
+    //'https://drive.google.com/uc?export=view&id=1bPiOzBP3i68AO7FHVeF92M-vrG4R0JJC',
 ]
+
+/*export default [
+    process.env.PUBLIC_URL+'/Svejse.jpg',
+    process.env.PUBLIC_URL+'/hal.jpg',
+    process.env.PUBLIC_URL+'/plads.jpg',
+]*/
 const entrepeneur_material = [
     'https://drive.google.com/uc?export=view&id=1liYh5aFJLyiuMUIILGP7kgeL_qkgv85o',
     'https://drive.google.com/uc?export=view&id=1leP3U4ema1gwsm_6VnBUfuq54oF4C_GD',
@@ -105,7 +112,6 @@ const special_opgaver = [
 
 ]
 
-const front = 'https://drive.google.com/uc?export=view&id=12zAmDkOU8eb9ao_g2TukymkqWCl7VQHn'
 
 export {entrepeneur_material, genindvinding, special_opgaver, byggeri}
 

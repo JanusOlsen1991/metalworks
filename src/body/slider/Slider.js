@@ -16,13 +16,17 @@ const Slider = props => {
 
     const firstSlide = slides[0]
     const secondSlide = slides[1]
-    const thirdSlide = slides[2]
+    //const thirdSlide = slides[2]
+    //const fourthSlide = slides[3]
+    //const fifthSlide = slides[4]
     const lastSlide = slides[slides.length - 1]
 
     const { texts } = props
     const firstText = texts[0]
     const secondText = texts[1]
-    const thirdText = texts[2]
+    //const thirdText = texts[2]
+    //const fourthText = texts[3]
+    //const fifthText = texts[4]
     const lastText = texts[texts.length -1]
 
 
@@ -32,8 +36,8 @@ const Slider = props => {
         activeText: 0,
         translate: getWidth(),
         transition: 3.0,
-        _slides: [lastSlide, firstSlide, secondSlide, thirdSlide],
-        _texts:  [lastText, firstText, secondText, thirdText]
+        _slides: [lastSlide, firstSlide, secondSlide, /*thirdSlide, /*fourthSlide/*, fifthSlide*/],
+        _texts:  [lastText, firstText, secondText, /*thirdText, /*fourthText/*, fifthText*/]
     })
 
     let { activeSlide, translate, _slides, transition, _texts, activeText } = state
@@ -68,7 +72,7 @@ const Slider = props => {
 
         let interval = null
 
-        if (props.autoPlay) {
+        if (props.autoPlay && (activeSlide !== slides.length-1)) {
             interval = setInterval(play, props.autoPlay * 1000)
         }
 
@@ -80,7 +84,7 @@ const Slider = props => {
                 clearInterval(interval)
             }
         }
-    }, [])
+    }, )
 
     useEffect(() => {
         if (transition === 0) setState({ ...state, transition: 0.9 })
@@ -92,16 +96,18 @@ const Slider = props => {
 
     const smoothTransition = () => {
         let _slides = []
+        let _texts = []
 
         // We're at the last slide.
         if (activeSlide === slides.length - 1) {
+            //stop sliding
             _slides = [slides[slides.length - 2], lastSlide, firstSlide];
             _texts = [texts[texts.length - 2], lastText, firstText]
         }
 
         // We're back at the first slide. Just reset to how it was on initial render
         else if (activeSlide === 0) {
-            _slides = [lastSlide, firstSlide, secondSlide]
+            _slides = [lastSlide, firstSlide, secondSlide,]
             _texts = [ lastText, firstText, secondText]
 
         }
@@ -111,6 +117,7 @@ const Slider = props => {
             _slides = slides.slice(activeSlide - 1, activeSlide + 2)
             _texts = texts.slice(activeText -1, activeText + 2)
         }
+
 
         setState({
             ...state,
@@ -129,13 +136,6 @@ const Slider = props => {
             activeText: activeText == texts.length -1 ? 0 : activeText +1
         })
 
-    const prevSlide = () =>
-        setState({
-            ...state,
-            translate: 0,
-            activeSlide: activeSlide === 0 ? slides.length - 1 : activeSlide - 1
-        })
-
     return (
         <div css={SliderCSS}>
             <SliderContent
@@ -151,7 +151,7 @@ const Slider = props => {
             </SliderContent>
 
 
-            <Dots slides={slides} activeSlide={activeSlide} />
+            /*<Dots slides={slides} activeSlide={activeSlide} />*/
         </div>
     )
 }
@@ -159,7 +159,7 @@ const Slider = props => {
 const SliderCSS = css`
   position: relative;
   height: 55vh;
-  width: 100%;
+  width: 1;
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;

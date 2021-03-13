@@ -8,10 +8,7 @@ import { BrowserRouter } from 'react-router-dom'
 import Navigation from './navigationbar/navigationbar'
 
 function App() {
-    const windowheight = () => {
 
-        return (window.outerHeight - 160)
-    }
   return (
       <>
           <div className={Styles['App-remove-white-spaces']}>                    

@@ -10,7 +10,7 @@ const ProfileCard = props => {
                     <div className={Styles.text}>
 
                         <div className={Styles.image}>
-                            <img src={props.image}  className={Styles.profileImage}>
+                            <img src={props.image} alt={"profile"} aria-label={"profile image"} className={Styles.profileImage}>
 
                             </img>
                         </div>
@@ -18,15 +18,12 @@ const ProfileCard = props => {
                             {props.name}
                         </h3>
 
-                        <image>
-
-                        </image>
                         <span>
                             MOBIL <a href={`tel:${props.phone}`}></a> {props.phone}
                         </span>
                         <br/>
                         <span>
-                            EMAIL <a href={`mailto:${props.email}`}>{props.email}</a>
+                            EMAIL <a href={`mailto:${props.email}`} aria-label={`email of ${props.name}`}>{props.email}</a>
                         </span>
                     </div>
                 </div>

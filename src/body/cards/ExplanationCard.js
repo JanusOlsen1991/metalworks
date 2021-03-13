@@ -6,10 +6,11 @@ const ExplanationCard = (props) => {
         backgroundColor : props.background,
         height : '100%',
         borderRadius : '5px',
+
     }
     return (
         <>
-                <div className={Styles.card} >
+                <div className={Styles.card}>
                     <a href={props.redirectPath}>
 
                     <div style={color}>
