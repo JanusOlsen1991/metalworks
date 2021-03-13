@@ -11,6 +11,7 @@ const ExplanationCard = (props) => {
     return (
         <>
                 <div className={Styles.card}>
+
                     <a href={props.redirectPath}>
 
                     <div style={color}>
@@ -21,10 +22,17 @@ const ExplanationCard = (props) => {
                             <p>
                                 {props.description}
                             </p>
+
+                            <div className={Styles.bottomBoxWrapper}>
+                                <div className={Styles.bottomBox}>
+                                    Se mere
+                                </div>
+                            </div>
                         </div>
 
 
                     </div>
+
                     </a>
 
                 </div>

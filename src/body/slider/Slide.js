@@ -27,6 +27,8 @@ const Slide = ({ text, content, width }) => (
                 css={css`
                 position: inline-flex;
                 margin: 20px;
+                word-wrap:break-word;
+                white-space:normal;
                 `}
             >{text}</h2>
 

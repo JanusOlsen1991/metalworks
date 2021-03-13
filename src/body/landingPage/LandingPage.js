@@ -11,14 +11,28 @@ const LandingPage = () => {
     return (
         <>
             <div>
-                <Slider
-                    slides ={images} autoPlay={5}
-                    texts ={texts}></Slider>
+                {
+                    (window.innerWidth >= 1000) ?
+                        <Slider
+                        slides ={images} autoPlay={5}
+                        texts ={texts}></Slider>
+                        :
+                        null
+                }
+
                 <div className={Styles.container}>
                     <div className={Styles.innerContainer}>
-                        <h1>
-                            Smed til alle opgaver
-                        </h1>
+                        {
+                            (window.innerWidth >= 1000) ?
+                                <h1>
+                                    Smed til alle opgaver
+                                </h1>
+                                :
+                                <h1 style={{textAlign: 'center'}}>
+                                    Smed til alle opgaver
+                                </h1>
+                        }
+
 
                         <div className={Styles.ParentCardsArea}>
 
@@ -48,6 +62,7 @@ const LandingPage = () => {
                                 ></ExplanationCard>
                             </div>
                         </div>
+
                         <div className={Styles.textBlock}>
                             <div className={Styles.textBlockLeft}>
                                 <p>
@@ -72,9 +87,16 @@ const LandingPage = () => {
                                 <p>Vil du gerne høre mere om hvad vi kan tilbyde eller vil du indhente et godt tilbud, så kan du kontakte os på telefon <a href={`tel:+4540114790`}>+45 40114790</a> eller på mail <a href={`mailto:AP@Metalworks.dk`}>AP@Metalworks.dk</a></p>
 
                             </div>
-                            <div className={Styles.imageRight}>
-                                <img src="https://drive.google.com/uc?export=view&id=17r6d7FFRS8FsAjnqXi4DVfOSw4ITZ4hS" alt=''></img>
-                            </div>
+                            {
+                                (window.innerWidth >= 1000) ?
+                                    <div className={Styles.imageRight}>
+                                        <img src="https://drive.google.com/uc?export=view&id=17r6d7FFRS8FsAjnqXi4DVfOSw4ITZ4hS" alt=''></img>
+                                    </div>
+                                    :
+                                    null
+                            }
+
+
                         </div>
 
 
