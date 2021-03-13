@@ -2,11 +2,12 @@ import React from 'react'
 import Styles from './ImagePage.module.css'
 
 const ImagePage = (props) => {
-    //const [images, setImages] = useState(props.images);
+ const width = window.innerWidth;
  return <>
  <div className={Styles.imagesWrapper}>
-     {props.images.map( img =>  <div className={Styles.imagePage} style={{maxWidth:"48%"}}>
-         <img src={img} style={{maxWidth: "100%", }}></img>
+     {props.images.map( img =>
+             <div className={Styles.imagePage}>
+         <img src={img} style={{maxWidth: "95%", }}></img>
      </div>
      )}
  </div>

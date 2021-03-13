@@ -6,13 +6,16 @@
 
 }
 .imagePage {
-    padding-left: 10px;
-    padding-right: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    min-width: 40%;
+    max-width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 
 }
 .imagePage img {
-
-    margin: 10px;
     border-radius: 5px;
 }

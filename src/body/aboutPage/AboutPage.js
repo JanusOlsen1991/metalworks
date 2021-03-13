@@ -4,7 +4,7 @@ import './AboutPage.css'
 const AboutPage = (props) =>{
     return (
         <>
-<div style={{textAlign: 'center'}}>
+<div style={{textAlign: 'center', marginLeft: '10px', marginRight: '10px'}}>
     <h1>Om MetalWorks</h1>
                 <div className={'about-wrapper'}>
                 
